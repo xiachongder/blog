@@ -114,6 +114,15 @@
   }
 }
 
+.notion-table-view {
+    position: relative;
+    float: left;
+    min-width: var(--notion-max-width);
+    padding-left: 12px!important;
+    padding-right: 12px!important;
+    transition: padding .2s ease-out;
+}
+
 .notion-quote {
   padding: 0.2em 0.75em;
   line-height: 1.5;
